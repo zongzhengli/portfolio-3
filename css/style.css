@@ -37,16 +37,16 @@ input[type=button] {
 }
 
 .bar {
-    opacity: 0.5;
+    width: 480px;
 }
 .bar:hover {
-    opacity: 1;
+    width: 960px;
 }
 
 div {
     width: 100%;
     height: 100%;
-    z-index: 333;
+    z-index: 4;
 }
 
 div.wrapper {
@@ -58,6 +58,7 @@ div.wrapper {
 }
 
 div.left {
+    position: absolute;
     float: left;
     width: 30%;
 }
@@ -93,6 +94,10 @@ div.bg {
     top: 0;
     left: 0;
     z-index: 3;
+}
+
+div#nBody *, div#matrix * {
+    color: white;
 }
 
 .fadein,
