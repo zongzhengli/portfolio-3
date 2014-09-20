@@ -10,22 +10,15 @@ body {
     background: #DEDEDE;
 }
 
-h1, p, input {
+p, input {
     font-family: 'Open Sans', sans-serif;
     color: black;
     opacity: 0.7;
 }
 
-h1 {
-    font-size: 40px;
-    font-weight: 400;
-    padding: 0px 30px 30px 30px;
-}
-
 p {
     font-size: 14px;
     font-weight: 400;
-    padding: 0px 30px 30px 30px;
 }
 
 input[type=button] {
@@ -34,13 +27,11 @@ input[type=button] {
     border: none;
     background: none;
     padding: 0;
+    outline: 0 !important;
 }
 
-.bar {
-    width: 480px;
-}
-.bar:hover {
-    width: 960px;
+input[type=button].selected {
+    font-size: 30px;
 }
 
 div {
@@ -52,41 +43,32 @@ div {
 div.wrapper {
     position: absolute;
     height: 100vh;
-    top:0;
     overflow: hidden;
-    bottom:0;
 }
 
 div.left {
     position: absolute;
     float: left;
-    width: 30%;
+    width: 50%;
+    background-color: white;
 }
-div.left * {
-    float: right;
-    clear: right;
+
+div.left-inner {
+    width: 60%;
+    height: 60%;
+    margin: 20%;
+}
+
+div.left-inner * {
+    display: block;
 }
 
 div.right {
-    margin-left: 30%;
+    margin-left: 50%;
 }
 
-div.filler, div.title {
-    height: 20%;
-}
-
-div.title {
-    position: absolute;
-}
-div.title * {
-    position: absolute;
-    bottom: 0;
-}
-
-div.text {
-    position: absolute;
-    margin-top: 10%;
-    width: 50%;
+div.description {
+    margin-top: 20%;
 }
 
 div.bg {
@@ -94,10 +76,6 @@ div.bg {
     top: 0;
     left: 0;
     z-index: 3;
-}
-
-div#nBody *, div#matrix * {
-    color: white;
 }
 
 .fadein,
