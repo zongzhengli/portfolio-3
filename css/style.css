@@ -10,24 +10,34 @@ body {
     background: #DEDEDE;
 }
 
-p, input {
+p, input[type=button] {
     font-family: 'Open Sans', sans-serif;
     color: black;
-    opacity: 0.7;
+    opacity: 0.4;
+}
+
+p.invert, input[type=button].invert {
+    color: white;
+    opacity: 0.5;
 }
 
 p {
     font-size: 14px;
     font-weight: 400;
+    line-height: 25px;
 }
 
 input[type=button] {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     border: none;
     background: none;
     padding: 0;
     outline: 0 !important;
+}
+
+input[type=button]:hover {
+    opacity: 0.8;
 }
 
 input[type=button].selected {
@@ -51,6 +61,10 @@ div.left {
     float: left;
     width: 50%;
     background-color: white;
+}
+
+div.left.invert {
+    background-color: black;
 }
 
 div.left-inner {

@@ -11,13 +11,13 @@
 </head>
 <body ng-controller="Controller">
     <div class="wrapper">
-        <div class="left">
+        <div class="left" ng-class="{invert: invert}" >
             <div class="left-inner">
-                <input type="button" ng-repeat="page in pages" value="{{page.title}}" ng-click="changePage(page.id)" ng-class="{selected: activeId == page.id}" />
+                <input type="button" ng-repeat="page in pages" value="{{page.title}}" ng-click="changePage(page.id)" ng-class="{selected: activeId == page.id, invert: invert}" />
 
                 <div ng-repeat="page in pages" ng-show="activeId == page.id" class="fadein fadeout">
                     <div class="description">
-                        <p>{{page.description}}</p>
+                        <p ng-class="{invert: invert}">{{page.description}}</p>
                     </div>
                 </div>
             </div>
