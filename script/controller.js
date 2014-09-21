@@ -20,35 +20,35 @@ var pages = [
         "id": "zero",
         "bg": "media/bg_zero.png",
         "invert": true,
-        "description": "Absolute Zero is a C# chess engine with an approximate playing strength of 2400 Elo. It implements modern search techniques to achieve a low branching factor, and defeats Windows' Chess Titans consistently, which was my goal when starting the project. It also defeats me consistently. Absolute Zero support UCI when started when argument -u."
+        "description": "Absolute Zero is my proudest accomplishment, the product of hundreds of hours of optimization and research. It is a C# chess engine written from scratch with an approximate playing strength of 2400 Elo. It defeats Windows' Chess Titans consistently, which was my goal when starting the project. It also defeats me consistently. Absolute Zero support UCI when started when argument -u."
     },
     {
         "title": "THREADS",
         "id": "threads",
         "bg": "media/bg_threads.png",
         "invert": false,
-        "description": "Threads is a puzzle Flash game written in ActionScript. It features my characteristic art style and an original physics implementation that can simple handle pendulum, box, and projectile physics. It is still in development, but there are 7 playable levels. Move with WASD and anchor threads with the mouse."
+        "description": "Threads is a puzzle Flash game written in ActionScript. It features a vector art style and an original physics implementation that can handle simple pendulum, box, and projectile physics. It is still in development, but there are 7 playable levels. Move with WASD and anchor threads with the mouse."
     },
     {
         "title": "FLOCKING SIMULATION",
         "id": "flocking",
         "bg": "media/bg_flocking.png",
         "invert": true,
-        "description": "Written to demonstrate my Lattice library, this is a flocking simulation in C#. It allows real-time modification of flock behaviour (cohesion, separation, etc) and introduction of a predator agent to make things even more interesting. I really like the aesthetics of the birds and hope to find a greater use for them some day."
+        "description": "It's amazing how complex behaviours can often be modelled by the application of a few simple rules. This is a flocking simulation in C#, written primarily to demonstrate my Lattice library. It allows real-time modification of flock behaviour (cohesion, separation, etc) and introduction of a predatory agent to make things more interesting."
     },
     {
         "title": "LATTICE GRAPHICS",
         "id": "lattice",
         "bg": "media/bg_lattice.png",
         "invert": false,
-        "description": "I've often wanted to write applications with simple 3D graphics so I created a library to make the process easy. Lattice is a 3D library for C#, featuring the ability to draw polygons with simple lighting and shading. I hope to improve it some time with proper z-buffering and a better lighting implementation."
+        "description": "I've often wanted to write applications with simple 3D graphics in C# so I created a library to make the process easy. Lattice is a 3D library for C#, featuring the ability to draw polygons with simple lighting and shading. I hope to improve it with more proper techniques so that I can release the code someday."
     },
     {
         "title": "MATRIX COMMAND PROMPT",
         "id": "matrix",
         "bg": "media/bg_matrix.png",
         "invert": false,
-        "description": "The Matrix Command Prompt is a fun concept I implemented in Java and packaged into a Windows executable. Note it isn't completely fully functional compared to the Windows command-line interpreter but it is still a lot of fun."
+        "description": "Sometimes I get silly ideas that I turn into afternoon projects. The Matrix Command Prompt is one of these fun concepts, implemented in Java and packaged into a Windows executable. Note it isn't 100% equivalent to the Windows command-line interpreter, so its use may even cause unexpected amounts of fun!"
     }
 ];
 

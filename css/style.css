@@ -36,7 +36,7 @@ input[type=button] {
     outline: 0 !important;
 }
 
-input[type=button]:hover {
+input[type=button]:hover, input[type=button]:focus {
     opacity: 0.8;
 }
 
