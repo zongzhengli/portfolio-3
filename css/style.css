@@ -10,16 +10,20 @@ body {
     background: #DEDEDE;
 }
 
-p, input[type=button] {
+p, a, input[type=button] {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     color: black;
     opacity: 0.5;
 }
 
-p {
+p, a {
     font-size: 14px;
     line-height: 25px;
+}
+
+a {
+    text-decoration: none;
 }
 
 input[type=button] {
@@ -30,7 +34,7 @@ input[type=button] {
     outline: 0 !important;
 }
 
-input[type=button]:hover, input[type=button]:focus {
+input[type=button]:hover, input[type=button]:focus, a:hover, a:focus {
     opacity: 0.8;
 }
 
@@ -64,16 +68,6 @@ div.left {
     width: 40%;
 }
 
-div.content-wrapper {
-    width: 60%;
-    height: 60%;
-    margin: 20%;
-}
-
-div.content-wrapper * {
-    display: block;
-}
-
 div.right {
     position: absolute;
     margin-left: 40%;
@@ -81,8 +75,27 @@ div.right {
     background-color: white;
 }
 
+div.content-wrapper {
+    width: 60%;
+    margin: 20%;
+}
+
+div.content-wrapper * {
+    display: block;
+}
+
 div.description {
     margin-top: 20%;
+}
+
+div.links-wrapper {
+    margin-top: 3%;
+    height: 10%;
+}
+
+div.links * {
+    display: inline;
+    margin-right: 10px;
 }
 
 div.bg {

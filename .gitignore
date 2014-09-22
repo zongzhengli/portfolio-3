@@ -1,4 +1,6 @@
 *.db
-*.zip
-*.exe
-*.dll
+/media/*.zip
+/media/*.exe
+/media/*.dll
+/media/*.html
+/media/*.swf
