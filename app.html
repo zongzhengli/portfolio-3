@@ -11,21 +11,25 @@
 </head>
 <body ng-controller="Controller">
     <div class="wrapper">
-        <div class="left" ng-class="{invert: invert}" >
-            <div class="left-inner">
+        <div class="left">
+            <div ng-repeat="page in pages" ng-show="activeId == page.id" class="fadein fadeout">
+                <div class="bg">
+                    <img src="{{page.bg}}" />
+                </div>
+            </div>
+        </div>
+        
+        <div class="right" ng-class="{invert: invert}">
+            <div class="content-wrapper">
+
+                <hr ng-class="{invert: invert}">
                 <input type="button" ng-repeat="page in pages" value="{{page.title}}" ng-click="changePage(page.id)" ng-class="{selected: activeId == page.id, invert: invert}" />
 
                 <div ng-repeat="page in pages" ng-show="activeId == page.id" class="fadein fadeout">
                     <div class="description">
+                        <hr ng-class="{invert: invert}">
                         <p ng-class="{invert: invert}">{{page.description}}</p>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="right">
-            <div ng-repeat="page in pages" ng-show="activeId == page.id" class="fadein fadeout">
-                <div class="bg">
-                    <img src="{{page.bg}}" />
                 </div>
             </div>
         </div>

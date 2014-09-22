@@ -12,24 +12,18 @@ body {
 
 p, input[type=button] {
     font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
     color: black;
-    opacity: 0.4;
-}
-
-p.invert, input[type=button].invert {
-    color: white;
     opacity: 0.5;
 }
 
 p {
     font-size: 14px;
-    font-weight: 400;
     line-height: 25px;
 }
 
 input[type=button] {
     font-size: 18px;
-    font-weight: 600;
     border: none;
     background: none;
     padding: 0;
@@ -42,6 +36,14 @@ input[type=button]:hover, input[type=button]:focus {
 
 input[type=button].selected {
     font-size: 30px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    color: black;
+    background-color: black;
+    opacity: 0.5;
 }
 
 div {
@@ -59,26 +61,24 @@ div.wrapper {
 div.left {
     position: absolute;
     float: left;
-    width: 50%;
-    background-color: white;
+    width: 40%;
 }
 
-div.left.invert {
-    background-color: black;
-}
-
-div.left-inner {
+div.content-wrapper {
     width: 60%;
     height: 60%;
     margin: 20%;
 }
 
-div.left-inner * {
+div.content-wrapper * {
     display: block;
 }
 
 div.right {
-    margin-left: 50%;
+    position: absolute;
+    margin-left: 40%;
+    width: 60%;
+    background-color: white;
 }
 
 div.description {
