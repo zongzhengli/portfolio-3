@@ -58,7 +58,7 @@ div.wrapper {
     height: 100%;
     position: absolute;
     overflow: hidden;
-    min-height: 850px;
+    min-height: 800px;
     max-width: 2560px;
 }
 
@@ -87,9 +87,14 @@ div.content-wrapper * {
     display: block;
 }
 
+div.page-wrapper {
+    width: 60%;
+    position: absolute;
+}
+
 div.links-wrapper {
     width: 100%;
-    margin-top: 20%;
+    margin-top: 10%;
 }
 
 div.links * {
@@ -100,11 +105,6 @@ div.links * {
 div.description {
     width: 100%;
     margin-top: 20px;
-}
-
-div.page-wrapper {
-    width: 60%;
-    position: absolute;
 }
 
 div.bg {
