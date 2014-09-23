@@ -10,38 +10,38 @@
     <link type="text/css" rel="stylesheet" href="css/style.css" />
 </head>
 <body ng-controller="controller">
-    <div class="wrapper">
-        <div class="left">
+    <div id="main">
+        <div id="left">
             <div ng-repeat="page in pages" ng-show="activeId == page.id" class="fadein fadeout">
-                <div class="fg">
+                <div id="fg">
                     <img class="centered" src="{{page.fg}}" />
                 </div>
-                <div class="bg">
+                <div id="bg">
                     <img src="{{page.bg}}" />
                 </div>
             </div>
         </div>
 
-        <div class="right">
-            <div class="content-wrapper">
+        <div id="right">
+            <div id="right-inner">
 
                 <hr>
                 <input type="button" ng-repeat="page in pages" value="{{page.title}}" ng-click="changePage(page.id)" ng-class="{selected: activeId == page.id}" />
 
-                <div ng-repeat="page in pages" ng-show="activeId == page.id" class="fadein fadeout">
+                <div id="page-outer">
+                    <div ng-repeat="page in pages" ng-show="activeId == page.id" class="fadein fadeout">
 
-                    <div class="page-wrapper">
-                        <div class="links-wrapper">
+                        <div id="page">
                             <hr>
-                            <div class="links">
+                            <div id="links">
                                 <a ng-repeat="link in page.links" href="{{link.url}}" target="_blank">
                                     {{link.text}}
                                 </a>
                             </div>
-                        </div>
 
-                        <div class="description">
-                            <p>{{page.description}}</p>
+                            <div id="description">
+                                <p>{{page.description}}</p>
+                            </div>
                         </div>
                     </div>
                 </div>
