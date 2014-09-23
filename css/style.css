@@ -1,11 +1,3 @@
-* {
-    -o-transition: .5s;
-    -ms-transition: .5s;
-    -moz-transition: .5s;
-    -webkit-transition: .5s;
-    transition: .5s;
-}
-
 p, a, input[type=button] {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -110,22 +102,19 @@ div.bg {
     z-index: 3;
 }
 
-.fadein,
-.fadeout {
-  -webkit-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
-  -moz-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
-  -o-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
-  transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+.fadein, .fadeout, a, p, input[type=button] {
+  -webkit-transition: all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+  -moz-transition: all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+  -o-transition: all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+  transition: all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
 }
 
-.fadein.ng-hide-remove,
-.fadeout.ng-hide-add.ng-hide-add-active {
+.fadein.ng-hide-remove, .fadeout.ng-hide-add.ng-hide-add-active {
   opacity: 0;
   display: block !important;
 }
 
-.fadeout.ng-hide-add,
-.fadein.ng-hide-remove.ng-hide-remove-active {
+.fadeout.ng-hide-add, .fadein.ng-hide-remove.ng-hide-remove-active {
   opacity: 1;
   display: block !important;
 }

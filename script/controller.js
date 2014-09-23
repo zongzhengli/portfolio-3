@@ -73,7 +73,7 @@ var pages = [
     }
 ];
 
-app.controller("Controller", function ($scope) {
+app.controller("controller", function ($scope) {
     $scope.pages = pages;
     $scope.activeId = pages[0].id;
 
