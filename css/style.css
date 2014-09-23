@@ -6,15 +6,11 @@
     transition: .5s;
 }
 
-body {
-    background: #DEDEDE;
-}
-
 p, a, input[type=button] {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     color: black;
-    opacity: 0.5;
+    opacity: 0.6;
 }
 
 p, a {
@@ -35,7 +31,7 @@ input[type=button] {
 }
 
 input[type=button]:hover, input[type=button]:focus, a:hover, a:focus {
-    opacity: 0.8;
+    opacity: 1;
 }
 
 input[type=button].selected {

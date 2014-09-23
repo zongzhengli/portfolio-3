@@ -17,7 +17,7 @@ var pages = [
         "id": "nBody",
         "bg": "media/bg_n-body.png",
         "links": [
-            { "text": "DOWNLOAD", "url": "/media/N-Body.zip" },
+            { "text": "DOWNLOAD", "url": "media/N-Body.zip" },
             { "text": "GITHUB", "url": "https://github.com/zongzhengli/N-Body" }],
         "description": "This is a real-time n-body simulation written in C#. It calculates forces using a multithreaded implementation of the Barnes-Hut algorithm. Various systems (planetary, binary, etc) can be modelled, and I took advantage of my Lattice library to perform the 3D drawing."
     },
@@ -26,7 +26,7 @@ var pages = [
         "id": "flocking",
         "bg": "media/bg_flocking.png",
         "links": [
-            { "text": "DOWNLOAD", "url": "/media/Flocking.zip" }],
+            { "text": "DOWNLOAD", "url": "media/Flocking.zip" }],
         "description": "It's amazing how complex behaviours can often be modelled by the application of a few simple rules. This is a flocking simulation in C#, written primarily to demonstrate my Lattice library. It allows real-time modification of flock behaviour (cohesion, separation, etc) and introduction of a predatory agent to make things more interesting."
     },
     {
@@ -34,7 +34,7 @@ var pages = [
         "id": "zero",
         "bg": "media/bg_zero.png",
         "links": [
-            { "text": "DOWNLOAD", "url": "/media/Absolute Zero.exe" },
+            { "text": "DOWNLOAD", "url": "media/Absolute Zero.exe" },
             { "text": "GITHUB", "url": "https://github.com/zongzhengli/Absolute-Zero" }],
         "description": "Absolute Zero is the product of endless hours of optimization and research. It is a C# chess engine written from scratch with an approximate playing strength of 2400 Elo. It defeats Windows' Chess Titans consistently, which was my goal when starting the project. It also defeats me consistently. Absolute Zero support UCI when started when argument -u."
     },
@@ -43,7 +43,7 @@ var pages = [
         "id": "threads",
         "bg": "media/bg_threads.png",
         "links": [
-            { "text": "PLAY", "url": "/media/Threads.html" }],
+            { "text": "PLAY", "url": "media/Threads.html" }],
         "description": "Threads is a puzzle Flash game written in ActionScript. It features a vector art style and an original physics implementation that can handle simple pendulum, box, and projectile physics. It is still in development, but there are 7 playable levels. Move with WASD and anchor threads with the mouse."
     },
     {
@@ -51,7 +51,7 @@ var pages = [
         "id": "lattice",
         "bg": "media/bg_lattice.png",
         "links": [
-            { "text": "DOWNLOAD", "url": "/media/Lattice.dll" }],
+            { "text": "DOWNLOAD", "url": "media/Lattice.dll" }],
         "description": "I've often wanted to write applications with simple 3D graphics in C# so I created a library to make the process easy. Lattice is a 3D library for C#, featuring the ability to draw polygons with simple lighting and shading. I hope to improve it with more proper techniques and thorough documentation so that I can release the code someday."
     },
     {
@@ -59,7 +59,7 @@ var pages = [
         "id": "force",
         "bg": "media/bg_force.png",
         "links": [
-            { "text": "DOWNLOAD", "url": "/media/Force-Directed.zip" },
+            { "text": "DOWNLOAD", "url": "media/Force-Directed.zip" },
             { "text": "GITHUB", "url": "https://github.com/zongzhengli/Force-Directed" }],
         "description": "This is a demonstration of an efficient 3D force-directed graph written in C#. Repulsion between nodes is calculated using a multithreaded implementation of the Barnes-Hut algorithm. I took advantage of my Lattice library to do the 3D drawing."
     },
@@ -68,7 +68,7 @@ var pages = [
         "id": "matrix",
         "bg": "media/bg_matrix.png",
         "links": [
-            { "text": "DOWNLOAD", "url": "/media/The Matrix Command Prompt.exe" }],
+            { "text": "DOWNLOAD", "url": "media/The Matrix Command Prompt.exe" }],
         "description": "Sometimes I get silly ideas that I turn into afternoon projects. The Matrix Command Prompt is one of these fun concepts, implemented in Java and packaged into a Windows executable. Note it isn't 100% equivalent to the Windows command-line interpreter, so its use may even cause unexpected amounts of fun!"
     }
 ];
