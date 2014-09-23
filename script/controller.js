@@ -33,6 +33,7 @@ var pages = [
         "title": "ABSOLUTE ZERO CHESS",
         "id": "zero",
         "bg": "media/bg_zero.png",
+        "fg": "media/fg_zero.png",
         "links": [
             { "text": "DOWNLOAD", "url": "media/Absolute Zero.exe" },
             { "text": "GITHUB", "url": "https://github.com/zongzhengli/Absolute-Zero" }],

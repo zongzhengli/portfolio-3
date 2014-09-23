@@ -13,6 +13,9 @@
     <div class="wrapper">
         <div class="left">
             <div ng-repeat="page in pages" ng-show="activeId == page.id" class="fadein fadeout">
+                <div class="fg">
+                    <img class="centered" src="{{page.fg}}" />
+                </div>
                 <div class="bg">
                     <img src="{{page.bg}}" />
                 </div>
