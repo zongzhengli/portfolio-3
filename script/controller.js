@@ -4,7 +4,7 @@ var pages = [
     {
         "title": "ZONG ZHENG LI",
         "id": "home",
-        "bg": "media/bg_home.jpg",
+        "bg": "images/bg_home.jpg",
         "links": [
             { "text": "LINKEDIN", "url": "https://ca.linkedin.com/pub/zong-zheng-li/71/97b/565/" },
             { "text": "GITHUB", "url": "https://github.com/zongzhengli" },
@@ -15,7 +15,7 @@ var pages = [
     {
         "title": "N-BODY SIMULATION",
         "id": "nBody",
-        "bg": "media/bg_n-body.png",
+        "bg": "images/bg_n-body.png",
         "links": [
             { "text": "DOWNLOAD", "url": "media/N-Body.zip" },
             { "text": "GITHUB", "url": "https://github.com/zongzhengli/N-Body" }],
@@ -24,7 +24,7 @@ var pages = [
     {
         "title": "FLOCKING SIMULATION",
         "id": "flocking",
-        "bg": "media/bg_flocking.png",
+        "bg": "images/bg_flocking.png",
         "links": [
             { "text": "DOWNLOAD", "url": "media/Flocking.zip" }],
         "description": "It's amazing how complex behaviours can often be modelled by the application of a few simple rules. This is a flocking simulation in C#, written primarily to demonstrate my Lattice library. It allows real-time modification of flock behaviour (cohesion, separation, etc) and introduction of a predatory agent to make things more interesting."
@@ -32,8 +32,8 @@ var pages = [
     {
         "title": "ABSOLUTE ZERO CHESS",
         "id": "zero",
-        "bg": "media/bg_zero.png",
-        "fg": "media/fg_zero.png",
+        "bg": "images/bg_zero.png",
+        "fg": "images/fg_zero.png",
         "links": [
             { "text": "DOWNLOAD", "url": "media/Absolute Zero.exe" },
             { "text": "GITHUB", "url": "https://github.com/zongzhengli/Absolute-Zero" }],
@@ -42,7 +42,7 @@ var pages = [
     {
         "title": "THREADS GAME",
         "id": "threads",
-        "bg": "media/bg_threads.png",
+        "bg": "images/bg_threads.png",
         "links": [
             { "text": "PLAY", "url": "media/Threads.html" }],
         "description": "Threads is a puzzle Flash game written in ActionScript. It features a vector art style and an original physics implementation that can handle simple pendulum, box, and projectile physics. It is still in development, but there are 7 playable levels. Move with WASD and anchor threads with the mouse."
@@ -50,7 +50,7 @@ var pages = [
     {
         "title": "LATTICE GRAPHICS",
         "id": "lattice",
-        "bg": "media/bg_lattice.png",
+        "bg": "images/bg_lattice.png",
         "links": [
             { "text": "DOWNLOAD", "url": "media/Lattice.dll" }],
         "description": "I've often wanted to write applications with simple 3D graphics in C# so I created a library to make the process easy. Lattice is a 3D library for C#, featuring the ability to draw polygons with simple lighting and shading. I hope to improve it with more proper techniques and thorough documentation so that I can release the code someday."
@@ -58,7 +58,7 @@ var pages = [
     {
         "title": "FORCE-DIRECTED GRAPH",
         "id": "force",
-        "bg": "media/bg_force.png",
+        "bg": "images/bg_force.png",
         "links": [
             { "text": "DOWNLOAD", "url": "media/Force-Directed.zip" },
             { "text": "GITHUB", "url": "https://github.com/zongzhengli/Force-Directed" }],
@@ -67,7 +67,7 @@ var pages = [
     {
         "title": "MATRIX COMMAND PROMPT",
         "id": "matrix",
-        "bg": "media/bg_matrix.png",
+        "bg": "images/bg_matrix.png",
         "links": [
             { "text": "DOWNLOAD", "url": "media/The Matrix Command Prompt.exe" }],
         "description": "Sometimes I get silly ideas that I turn into afternoon projects. The Matrix Command Prompt is one of these fun concepts, implemented in Java and packaged into a Windows executable. Note it isn't 100% equivalent to the Windows command-line interpreter, so its use may even cause unexpected amounts of fun!"
