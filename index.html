@@ -14,7 +14,7 @@
     <div id="main">
         <div id="left">
             <div ng-repeat="page in pages" ng-show="activeId == page.id" class="fadein fadeout">
-                <div id="fg">
+                <div id="fg" ng-show="page.hasFg" >
                     <img class="centered" src="{{page.fg}}" />
                 </div>
                 <div id="bg">

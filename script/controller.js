@@ -10,7 +10,7 @@ var pages = [
             { "text": "GITHUB", "url": "https://github.com/zongzhengli" },
             { "text": "STACKOVERFLOW", "url": "https://stackoverflow.com/users/1473751/zong-zheng-li" },
             { "text": "SOUNDCLOUD", "url": "https://soundcloud.com/zong-zheng-li" }],
-        "description": "Hello, I'm Zong, a computer science student at the University of Waterloo. Coding is one of my creative outlets and here you'll find some of the stuff I've developed in my spare time."
+        "description": "Hello, I'm Zong, a computer science student at the University of Waterloo. Coding is one of my creative outlets and here you'll find some of the stuff I've developed in my spare time. Unfortunately, there seems to be a recent issue with Chrome's image transitions, so some parts of the site may not appear as intended with that browser."
     },
     {
         "title": "N-BODY SIMULATION",
@@ -34,6 +34,7 @@ var pages = [
         "id": "zero",
         "bg": "images/bg_zero.png",
         "fg": "images/fg_zero.png",
+        "hasFg": true,
         "links": [
             { "text": "DOWNLOAD", "url": "media/Absolute Zero.exe" },
             { "text": "GITHUB", "url": "https://github.com/zongzhengli/Absolute-Zero" }],
