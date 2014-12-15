@@ -111,17 +111,21 @@ img.centered {
    position: absolute;
    left: 50%;
    top: 50%;
-   -webkit-transform: translateY(-50%) translateX(-50%);
-   -moz-transform: translateY(-50%) translateX(-50%);
-   -o-transform: translateY(-50%) translateX(-50%);
    transform: translateY(-50%) translateX(-50%);
+   -o-transform: translateY(-50%) translateX(-50%);
+   -moz-transform: translateY(-50%) translateX(-50%);
+   -webkit-transform: translateY(-50%) translateX(-50%);
 }
 
 .fadein, .fadeout, a, p, input[type=button] {
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -o-transition: 0.5s;
     transition: 0.5s;
+    -o-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+
+.fadein, .fadeout {
+    -webkit-transition: none;
 }
 
 .fadein.ng-hide-remove, .fadeout.ng-hide-add.ng-hide-add-active {
