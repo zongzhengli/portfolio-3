@@ -52,7 +52,7 @@ var pages = [
         "bg": "images/bg_lattice.png",
         "links": [
             { "text": "DOWNLOAD", "url": "media/Lattice.dll" }],
-        "description": "I've often wanted to write applications with simple 3D graphics in C# so I created a library to make the process easy. Lattice is a 3D library for C#, featuring the ability to draw polygons with simple lighting and shading. I hope to improve it with more proper techniques and thorough documentation so that I can release the code someday."
+        "description": "I've often wanted to write applications with simple 3D graphics in C# so I created a library to make the process easy. Lattice is a 3D library for C#, featuring the ability to draw polygons with simple lighting and shading. It's currently primarily for personal use until I clean up some of the code and release documentation."
     },
     {
         "title": "FORCE-DIRECTED GRAPH",
