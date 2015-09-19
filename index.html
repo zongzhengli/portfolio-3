@@ -16,10 +16,10 @@
         <div id="left">
             <div ng-repeat="page in pages" ng-show="activeId == page.id" class="fadein fadeout">
                 <div id="fg" ng-show="page.hasFg" >
-                    <img class="centered" src="{{page.fg}}" />
+                    <img class="centered" ng-src="{{page.fg}}" />
                 </div>
                 <div id="bg">
-                    <img src="{{page.bg}}" />
+                    <img ng-src="{{page.bg}}" />
                 </div>
             </div>
         </div>
@@ -28,7 +28,7 @@
             <div id="right-inner">
 
                 <hr>
-                <input type="button" ng-repeat="page in pages" value="{{page.title}}" ng-click="changePage(page.id)" ng-class="{selected: activeId == page.id}" />
+                <input type="button" ng-repeat="page in pages" ng-value="page.title" ng-click="changePage(page.id)" ng-class="{selected: activeId == page.id}" />
 
                 <div id="page-outer">
                     <div ng-repeat="page in pages" ng-show="activeId == page.id" class="fadein fadeout">
@@ -36,13 +36,12 @@
                         <div id="page">
                             <hr>
                             <div id="links">
-                                <a ng-repeat="link in page.links" ng-href="{{link.url}}" target="_blank">
-                                    {{link.text}}
+                                <a ng-repeat="link in page.links" ng-bind="link.text" ng-href="{{link.url}}" target="_blank">
                                 </a>
                             </div>
 
                             <div id="description">
-                                <p>{{page.description}}</p>
+                                <p ng-bind-html="page.description"></p>
                             </div>
                         </div>
                     </div>
