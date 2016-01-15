@@ -27,6 +27,7 @@ var pages = [
         "id": "flocking",
         "bg": "images/bg_flocking.png",
         "links": [
+            { "text": "VIDEO"           , "url": "https://www.youtube.com/watch?v=82tbG9OH9dg" },
             { "text": "DOWNLOAD"        , "url": "media/Flocking.zip" }
         ],
         "description": "It's amazing how complex behaviours can often be modelled by the application of a few simple rules. This is a flocking simulation in C#, written primarily to demonstrate my Lattice library. It allows real-time modification of flock behaviour (cohesion, separation, etc) and introduction of a predatory agent to make things more interesting."
