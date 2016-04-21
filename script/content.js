@@ -52,7 +52,7 @@ var pages = [
         "links": [
             { "text": "VIEW"        , "url": "http://csclub.uwaterloo.ca/~zzli/cs488" },
         ],
-        "description": "I had a lot of fun implementing a ray tracer for the final project of CS 488, Waterloo's graphics course. The gallery linked shows off the ray tracer's features. I've withheld the code for academic reasons; please ask if you're interested."
+        "description": "I had a lot of fun writing a ray tracer as the final project for CS 488, Waterloo's graphics course. The gallery linked exhibits most of the ray tracer's features. I've withheld the code for academic reasons; please ask if you're interested."
     },
     {
         "title": "2048 BOT",
