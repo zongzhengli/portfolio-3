@@ -20,7 +20,7 @@ var pages = [
             { "text": "DOWNLOAD"        , "url": "media/N-Body.zip" },
             { "text": "GITHUB"          , "url": "https://github.com/zongzhengli/N-Body" }
         ],
-        "description": "This is a real-time n-body simulation written in C#. It calculates forces using a multithreaded implementation of the Barnes-Hut algorithm. Various systems (planetary, binary, etc) can be modelled, and I took advantage of my Lattice library to perform the 3D drawing."
+        "description": "This is a real-time n-body simulation written in C#. It calculates forces using a multithreaded implementation of the Barnes-Hut algorithm (using octrees). Various systems can be modelled, such as binary and planetary systems."
     },
     {
         "title": "FLOCKING SIMULATION",
@@ -30,10 +30,10 @@ var pages = [
             { "text": "VIDEO"           , "url": "https://www.youtube.com/watch?v=82tbG9OH9dg" },
             { "text": "DOWNLOAD"        , "url": "media/Flocking.zip" }
         ],
-        "description": "It's amazing how complex behaviours can often be modelled by the application of a few simple rules. This is a flocking simulation in C#, written primarily to demonstrate my Lattice library. It allows real-time modification of flock behaviour (cohesion, separation, etc) and introduction of a predatory agent to make things more interesting."
+        "description": "It's amazing how complex behaviours can often be modelled by a few simple rules. This is a flocking simulation written for fun to demonstrate my simple graphics library. It allows real-time modification of flock behaviour (cohesion, separation, etc) and introduction of a predatory agent to make things more interesting."
     },
     {
-        "title": "ABSOLUTE ZERO CHESS",
+        "title": "CHESS ENGINE",
         "id": "zero",
         "bg": "images/bg_zero.png",
         "fg": "images/fg_zero.png",
@@ -42,7 +42,17 @@ var pages = [
             { "text": "DOWNLOAD"        , "url": "media/Absolute Zero.exe" },
             { "text": "GITHUB"          , "url": "https://github.com/zongzhengli/Absolute-Zero" }
         ],
-        "description": "Absolute Zero is the product of endless hours of optimization and research. It is a C# chess engine written from scratch with an approximate playing strength of 2237 Elo. It defeats Windows' Chess Titans consistently, which was my goal when starting the project. It also defeats me consistently. Absolute Zero support UCI when started when argument -u."
+        "description": "Absolute Zero is one of my most proud accomplishments. It's a C# chess engine written from scratch with a playing strength of 2237 Elo. It defeats Windows' Chess Titans consistently (my goal when starting the project). Absolute Zero supports the UCI protocol when started when argument -u."
+    },
+    {
+        "title": "RAY TRACING",
+        "id": "rt",
+        "bg": "images/bg_rt.png",
+        "hasFg": false,
+        "links": [
+            { "text": "VIEW"        , "url": "http://csclub.uwaterloo.ca/~zzli/cs488" },
+        ],
+        "description": "I had a lot of fun implementing a ray tracer for the final project of CS 488, Waterloo's graphics course. The gallery linked shows off the ray tracer's features. I've withheld the code for academic reasons; please ask if you're interested."
     },
     {
         "title": "2048 BOT",
@@ -66,13 +76,13 @@ var pages = [
         "description": "Threads is a puzzle/platformer game written that I developed with Flash in high school. It features a smooth camera and simple physics implementation. It was never completed but featjures 7 playable levels. Move with WASD and anchor ends of the threads with the cursor."
     },
     {
-        "title": "LATTICE GRAPHICS",
+        "title": "SIMPLE GRAPHICS",
         "id": "lattice",
         "bg": "images/bg_lattice.png",
         "links": [
             { "text": "DOWNLOAD"        , "url": "media/Lattice.dll" }
         ],
-        "description": "I've often wanted to explore ideas with simple 3D graphics so I created a library to make the process easy. Lattice is a 3D library for C#, featuring the ability to draw polygons with simple lighting and shading. It's currently primarily for personal use until I clean up some of the code and release documentation."
+        "description": "I've often wanted to explore ideas with simple 3D graphics so I created a library to make the process easy. Lattice is a 3D library for C#, featuring the ability to draw shapes and polygons with perspective projection and basic shading. It's currently primarily for personal use."
     },
     {
         "title": "FORCE-DIRECTED GRAPH",
@@ -82,7 +92,7 @@ var pages = [
             { "text": "DOWNLOAD"        , "url": "media/Force-Directed.zip" },
             { "text": "GITHUB"          , "url": "https://github.com/zongzhengli/Force-Directed" }
         ],
-        "description": "This is a demonstration of an efficient 3D force-directed graph written in C#. Repulsion between nodes is calculated using a multithreaded implementation of the Barnes-Hut algorithm. I took advantage of my Lattice library to do the 3D drawing."
+        "description": "This is a demonstration of efficient 3D force-directed graph drawing. Nodes attract via spring-like edges and repulse to achieve even distribution."
     },
     {
         "title": "MATRIX COMMAND PROMPT",
@@ -91,6 +101,6 @@ var pages = [
         "links": [
             { "text": "DOWNLOAD"        , "url": "media/The Matrix Command Prompt.exe" }
         ],
-        "description": "Sometimes I get silly ideas that I turn into afternoon projects. The Matrix Command Prompt is one of these fun concepts, implemented in Java and packaged into a Windows executable. Note it isn't 100% equivalent to the Windows command-line interpreter, but it's still a lot of fun!"
+        "description": "This is a silly idea I implemented long ago. For some reason, it's written in Java and packaged into a Windows executable. It's missing some features compared to the Windows command-line interpreter, if it matters."
     }
 ];
