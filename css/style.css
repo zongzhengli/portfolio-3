@@ -24,11 +24,10 @@ input[type=button] {
 }
 
 input[type=button]:hover, input[type=button]:focus, a:hover, a:focus {
-    opacity: 1;
+    border-bottom: 1px solid grey;
 }
 
 input[type=button].selected {
-    opacity: 1;
     border-bottom: 1px solid black;
 }
 

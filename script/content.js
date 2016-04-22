@@ -50,9 +50,9 @@ var pages = [
         "bg": "images/bg_rt.png",
         "hasFg": false,
         "links": [
-            { "text": "VIEW"        , "url": "http://csclub.uwaterloo.ca/~zzli/cs488" },
+            { "text": "GALLERY"         , "url": "http://csclub.uwaterloo.ca/~zzli/cs488" },
         ],
-        "description": "I had a lot of fun writing a ray tracer as the final project for CS 488, Waterloo's graphics course. The gallery linked exhibits most of the ray tracer's features. I've withheld the code for academic reasons; please ask if you're interested."
+        "description": "This won 1st place (Gold) from the final projects of the Winter 2016 offering of CS 488, Waterloo's graphics course. The gallery exhibits most of the ray tracer's features. I've withheld the code for academic reasons; please ask if you're interested."
     },
     {
         "title": "2048 BOT",
