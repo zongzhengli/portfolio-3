@@ -13,24 +13,16 @@ var pages = [
         "description": "Hello, I'm Zong, a computer science student at the University of Waterloo. Coding is one of my creative outlets and here you'll find some of the stuff I've developed in my spare time."
     },
     {
-        "title": "N-BODY SIMULATION",
-        "id": "nBody",
-        "bg": "images/bg_n-body.png",
+        "title": "NEURAL NETWORK",
+        "id": "neural",
+        "bg": "images/bg_neural.png",
+        "fg": "images/fg_neural.png",
+        "hasFg": true,
         "links": [
-            { "text": "DOWNLOAD"        , "url": "media/N-Body.zip" },
-            { "text": "GITHUB"          , "url": "https://github.com/zongzhengli/N-Body" }
+            { "text": "VIEW"            , "url": "http://csclub.uwaterloo.ca/~zzli/neural" },
+            { "text": "GITHUB"          , "url": "https://github.com/zongzhengli/neural-network" }
         ],
-        "description": "This is a real-time n-body simulation written in C#. It calculates forces using a multithreaded implementation of the Barnes-Hut algorithm (using octrees). Various systems can be modelled, such as binary and planetary systems."
-    },
-    {
-        "title": "FLOCKING SIMULATION",
-        "id": "flocking",
-        "bg": "images/bg_flocking.png",
-        "links": [
-            { "text": "VIDEO"           , "url": "https://www.youtube.com/watch?v=82tbG9OH9dg" },
-            { "text": "DOWNLOAD"        , "url": "media/Flocking.zip" }
-        ],
-        "description": "It's amazing how complex behaviours can often be modelled by a few simple rules. This is a flocking simulation written for fun to demonstrate my simple graphics library. It allows real-time modification of flock behaviour (cohesion, separation, etc) and introduction of a predatory agent to make things more interesting."
+        "description": "Play with a neural network in your browser! This neural network learns to approximate algebraic functions via stochastic gradient descent. The visualizations were built using D3.js."
     },
     {
         "title": "CHESS ENGINE",
@@ -65,6 +57,26 @@ var pages = [
             { "text": "GITHUB"          , "url": "https://github.com/zongzhengli/2048-Bot" }
         ],
         "description": "This is a bot for the web game 2048. It can readibly reach the 4096 tile while using only fractions of a second per move. It's written in JavaScript and is a lot of fun to watch."
+    },
+    {
+        "title": "N-BODY SIMULATION",
+        "id": "nBody",
+        "bg": "images/bg_n-body.png",
+        "links": [
+            { "text": "DOWNLOAD"        , "url": "media/N-Body.zip" },
+            { "text": "GITHUB"          , "url": "https://github.com/zongzhengli/N-Body" }
+        ],
+        "description": "This is a real-time n-body simulation written in C#. It calculates forces using a multithreaded implementation of the Barnes-Hut algorithm (using octrees). Various systems can be modelled, such as binary and planetary systems."
+    },
+    {
+        "title": "FLOCKING SIMULATION",
+        "id": "flocking",
+        "bg": "images/bg_flocking.png",
+        "links": [
+            { "text": "VIDEO"           , "url": "https://www.youtube.com/watch?v=82tbG9OH9dg" },
+            { "text": "DOWNLOAD"        , "url": "media/Flocking.zip" }
+        ],
+        "description": "It's amazing how complex behaviours can often be modelled by a few simple rules. This is a flocking simulation written for fun to demonstrate my simple graphics library. It allows real-time modification of flock behaviour (cohesion, separation, etc) and introduction of a predatory agent to make things more interesting."
     },
     {
         "title": "THREADS GAME",
