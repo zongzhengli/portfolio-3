@@ -10,7 +10,7 @@ var pages = [
             { "text": "SOUNDCLOUD"      , "url": "https://soundcloud.com/zong-zheng-li" },
             { "text": "YOUTUBE"         , "url": "https://www.youtube.com/channel/UClRBClnU_0aL-qwUwH4_KDw" }
         ],
-        "description": "Hello, I'm Zong, a computer science student at the University of Waterloo. Coding is one of my creative outlets and here you'll find some of the stuff I've developed in my spare time."
+        "description": "I graduated with a CS degree from the University of Waterloo and work as a software engineer at Facebook. Coding is one of my creative outlets and here you'll find some of the stuff I've developed in my spare time and in school."
     },
     {
         "title": "NEURAL NETWORK",
@@ -22,7 +22,7 @@ var pages = [
             { "text": "VIEW"            , "url": "http://csclub.uwaterloo.ca/~zzli/neural" },
             { "text": "GITHUB"          , "url": "https://github.com/zongzhengli/neural-network" }
         ],
-        "description": "Play with a neural network in your browser! This neural network learns to approximate algebraic functions via stochastic gradient descent. The visualizations were built using D3.js."
+        "description": "Play with a neural network in your browser! This neural network learns arbitrary algebraic functions via stochastic gradient descent. The visualizations were built using D3.js."
     },
     {
         "title": "CHESS ENGINE",
@@ -34,7 +34,7 @@ var pages = [
             { "text": "DOWNLOAD"        , "url": "media/Absolute Zero.exe" },
             { "text": "GITHUB"          , "url": "https://github.com/zongzhengli/Absolute-Zero" }
         ],
-        "description": "Absolute Zero is one of my most proud accomplishments. It's a C# chess engine written from scratch with a playing strength of 2237 Elo. It defeats Windows' Chess Titans consistently (my goal when starting the project). Absolute Zero supports the UCI protocol when started when argument -u."
+        "description": "Absolute Zero is a bitboard chess engine written from scratch in C#. It has a playing strength of 2294 Elo. Absolute Zero has its own GUI and supports the UCI protocol when started when argument -u."
     },
     {
         "title": "RAY TRACING",
@@ -44,7 +44,7 @@ var pages = [
         "links": [
             { "text": "GALLERY"         , "url": "http://csclub.uwaterloo.ca/~zzli/cs488" },
         ],
-        "description": "This won 1st place (Gold) from the final projects of the Winter 2016 offering of CS 488, Waterloo's graphics course. The gallery exhibits most of the ray tracer's features. I've withheld the code for academic reasons; please ask if you're interested."
+        "description": "This won 1st place among the final projects of Waterloo's graphics course (CS 488) in Winter 2016. The gallery exhibits most of the ray tracer's features. Please ask if you're interested in the code."
     },
     {
         "title": "2048 BOT",
@@ -56,7 +56,7 @@ var pages = [
             { "text": "VIDEO"           , "url": "https://www.youtube.com/watch?v=o6HGKy921YY" },
             { "text": "GITHUB"          , "url": "https://github.com/zongzhengli/2048-Bot" }
         ],
-        "description": "This is a bot for the web game 2048. It can readibly reach the 4096 tile while using only fractions of a second per move. It's written in JavaScript and is a lot of fun to watch."
+        "description": "This is a bot for the web game 2048. It can readily reach the 4096 tile while using only fractions of a second per move. It's written in JavaScript and is a lot of fun to watch."
     },
     {
         "title": "N-BODY SIMULATION",
@@ -85,7 +85,7 @@ var pages = [
         "links": [
             { "text": "PLAY"            , "url": "media/Threads.html" }
         ],
-        "description": "Threads is a puzzle/platformer game written that I developed with Flash in high school. It features a smooth camera and simple physics implementation. It was never completed but featjures 7 playable levels. Move with WASD and anchor ends of the threads with the cursor."
+        "description": "Threads is a puzzle/platformer game written that I developed with Flash in high school. It features a smooth camera and simple physics implementation. It was never completed but features 7 playable levels. Move with WASD and anchor ends of threads with the cursor."
     },
     {
         "title": "SIMPLE GRAPHICS",
@@ -94,7 +94,7 @@ var pages = [
         "links": [
             { "text": "DOWNLOAD"        , "url": "media/Lattice.dll" }
         ],
-        "description": "I've often wanted to explore ideas with simple 3D graphics so I created a library to make the process easy. Lattice is a 3D library for C#, featuring the ability to draw shapes and polygons with perspective projection and basic shading. It's currently primarily for personal use."
+        "description": "I often wanted to explore ideas with simple 3D graphics so I created a library to make the process easy. Lattice is a 3D library for C#, featuring the ability to draw shapes and polygons with perspective projection and basic shading."
     },
     {
         "title": "FORCE-DIRECTED GRAPH",
@@ -113,6 +113,6 @@ var pages = [
         "links": [
             { "text": "DOWNLOAD"        , "url": "media/The Matrix Command Prompt.exe" }
         ],
-        "description": "This is a silly idea I implemented long ago. For some reason, it's written in Java and packaged into a Windows executable. It's missing some features compared to the Windows command-line interpreter, if it matters."
+        "description": "This is a silly idea I implemented long ago. It's written in Java and packaged into a Windows executable. It's missing some features compared to the Windows command-line interpreter, so don't use it for anything important!"
     }
 ];
